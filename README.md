@@ -126,7 +126,7 @@ ESP32 core. The fonts ship with Adafruit GFX.
 ### 1. Get the code
 
 ```bash
-git clone https://github.com/<you>/matrix-sign.git
+git clone https://github.com/spandox2/matrix-sign.git
 ```
 
 Open **`MatrixSign/MatrixSign.ino`** in the Arduino IDE. Keep `MatrixSign.ino` and `SignTypes.h`
