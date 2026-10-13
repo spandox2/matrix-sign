@@ -101,9 +101,9 @@ def main():
     p.add_argument("--host", default=DEFAULT_HOST)
     p.add_argument("--port", type=int, default=DEFAULT_PORT)
     p.add_argument("--label", default="ARS", help="short label for the top line (keep it ~5 chars)")
-    p.add_argument("--color", default="orange", help="label color (name or #RRGGBB)")
+    p.add_argument("--color", default="#740", help="label color (name or #RRGGBB)")
     p.add_argument("--text-color", default="white", help="headline color")
-    p.add_argument("--font", help="headline font, e.g. sans9 bold9 serif9 (default: classic)")
+    p.add_argument("--font", default="sans9", help="headline font, e.g. sans9 bold9 serif9 (default: classic)")
     p.add_argument("--label-font", default="classic", help="label font, e.g. tiny (default: classic)")
     p.add_argument("--size", type=int, choices=[1, 2, 3],
                    help="headline scale (default 2 for classic, 1 with --font)")
